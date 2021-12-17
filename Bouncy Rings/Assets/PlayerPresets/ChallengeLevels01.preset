@@ -1,0 +1,1606 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ChallengeLevels01
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: c1367c1b7a45fa44aae0c956c1146958,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_Name
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: indexOfEmpircalLevelToMove
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: wantedChallengesNumber
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ringsCount
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: startingRandomScore
+    value: 60
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: startingRequiredRings
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: empiricalChallengeIndexText
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: empiricalChallenheNameText
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: empircalChallengeLevels.Array.size
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: player
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: mainMenu
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: playModes
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: floatingObjectSpawner
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevelIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: partiallyLevelIndex
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: magnetCountBeforeChallenge
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.size
+    value: 21
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[0].challengeName
+    value: Place 4 rings in 1 run
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[0].isTheExactRequirment
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[0].isAbleToUseMagnets
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[0].requiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[0].requiredRings
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[0].minRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[0].maxRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[0].minRequiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[0].maxRequiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[0].runTimes
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[0].isItRowRunTimes
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[0].isEndlessGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[0].isTimeTrialGame
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[0].isTwoCones
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[0].isSpecificConeMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[0].isAutoSetPlayTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[0].playTimer
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[0].ringsCount
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[1].challengeName
+    value: Place exactly 4 rings in 1 run
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[1].isTheExactRequirment
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[1].isAbleToUseMagnets
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[1].requiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[1].requiredRings
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[1].minRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[1].maxRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[1].minRequiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[1].maxRequiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[1].runTimes
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[1].isItRowRunTimes
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[1].isEndlessGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[1].isTimeTrialGame
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[1].isTwoCones
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[1].isSpecificConeMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[1].isAutoSetPlayTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[1].playTimer
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[1].ringsCount
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[2].challengeName
+    value: Place 4 rings in 1 run without using magnets
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[2].isTheExactRequirment
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[2].isAbleToUseMagnets
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[2].requiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[2].requiredRings
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[2].minRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[2].maxRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[2].minRequiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[2].maxRequiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[2].runTimes
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[2].isItRowRunTimes
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[2].isEndlessGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[2].isTimeTrialGame
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[2].isTwoCones
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[2].isSpecificConeMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[2].isAutoSetPlayTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[2].playTimer
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[2].ringsCount
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[3].challengeName
+    value: Place 4 rings in 1 run within 15s
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[3].isTheExactRequirment
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[3].isAbleToUseMagnets
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[3].requiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[3].requiredRings
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[3].minRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[3].maxRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[3].minRequiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[3].maxRequiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[3].runTimes
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[3].isItRowRunTimes
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[3].isEndlessGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[3].isTimeTrialGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[3].isTwoCones
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[3].isSpecificConeMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[3].isAutoSetPlayTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[3].playTimer
+    value: 15
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[3].ringsCount
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[4].challengeName
+    value: Place 4 rings in x3 a row
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[4].isTheExactRequirment
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[4].isAbleToUseMagnets
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[4].requiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[4].requiredRings
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[4].minRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[4].maxRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[4].minRequiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[4].maxRequiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[4].runTimes
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[4].isItRowRunTimes
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[4].isEndlessGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[4].isTimeTrialGame
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[4].isTwoCones
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[4].isSpecificConeMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[4].isAutoSetPlayTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[4].playTimer
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[4].ringsCount
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[5].challengeName
+    value: Place exactly 4 rings in x3 a row
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[5].isTheExactRequirment
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[5].isAbleToUseMagnets
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[5].requiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[5].requiredRings
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[5].minRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[5].maxRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[5].minRequiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[5].maxRequiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[5].runTimes
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[5].isItRowRunTimes
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[5].isEndlessGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[5].isTimeTrialGame
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[5].isTwoCones
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[5].isSpecificConeMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[5].isAutoSetPlayTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[5].playTimer
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[5].ringsCount
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[6].challengeName
+    value: Place 4 rings in x3 a row without using magnets
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[6].isTheExactRequirment
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[6].isAbleToUseMagnets
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[6].requiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[6].requiredRings
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[6].minRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[6].maxRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[6].minRequiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[6].maxRequiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[6].runTimes
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[6].isItRowRunTimes
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[6].isEndlessGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[6].isTimeTrialGame
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[6].isTwoCones
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[6].isSpecificConeMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[6].isAutoSetPlayTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[6].playTimer
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[6].ringsCount
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[7].challengeName
+    value: Place 4 rings in x3 a row within 15s
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[7].isTheExactRequirment
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[7].isAbleToUseMagnets
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[7].requiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[7].requiredRings
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[7].minRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[7].maxRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[7].minRequiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[7].maxRequiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[7].runTimes
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[7].isItRowRunTimes
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[7].isEndlessGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[7].isTimeTrialGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[7].isTwoCones
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[7].isSpecificConeMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[7].isAutoSetPlayTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[7].playTimer
+    value: 15
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[7].ringsCount
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[8].challengeName
+    value: Place 4 rings in 3 run
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[8].isTheExactRequirment
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[8].isAbleToUseMagnets
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[8].requiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[8].requiredRings
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[8].minRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[8].maxRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[8].minRequiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[8].maxRequiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[8].runTimes
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[8].isItRowRunTimes
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[8].isEndlessGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[8].isTimeTrialGame
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[8].isTwoCones
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[8].isSpecificConeMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[8].isAutoSetPlayTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[8].playTimer
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[8].ringsCount
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[9].challengeName
+    value: Place exactly 4 rings in 3 run
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[9].isTheExactRequirment
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[9].isAbleToUseMagnets
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[9].requiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[9].requiredRings
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[9].minRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[9].maxRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[9].minRequiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[9].maxRequiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[9].runTimes
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[9].isItRowRunTimes
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[9].isEndlessGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[9].isTimeTrialGame
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[9].isTwoCones
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[9].isSpecificConeMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[9].isAutoSetPlayTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[9].playTimer
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[9].ringsCount
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[10].challengeName
+    value: Place 4 rings in 3 run without using magnets
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[10].isTheExactRequirment
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[10].isAbleToUseMagnets
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[10].requiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[10].requiredRings
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[10].minRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[10].maxRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[10].minRequiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[10].maxRequiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[10].runTimes
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[10].isItRowRunTimes
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[10].isEndlessGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[10].isTimeTrialGame
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[10].isTwoCones
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[10].isSpecificConeMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[10].isAutoSetPlayTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[10].playTimer
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[10].ringsCount
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[11].challengeName
+    value: Place 4 rings in 3 run within 15s
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[11].isTheExactRequirment
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[11].isAbleToUseMagnets
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[11].requiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[11].requiredRings
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[11].minRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[11].maxRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[11].minRequiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[11].maxRequiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[11].runTimes
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[11].isItRowRunTimes
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[11].isEndlessGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[11].isTimeTrialGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[11].isTwoCones
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[11].isSpecificConeMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[11].isAutoSetPlayTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[11].playTimer
+    value: 15
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[11].ringsCount
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[12].challengeName
+    value: Place between 4 and 8 rings in 1 Run
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[12].isTheExactRequirment
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[12].isAbleToUseMagnets
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[12].requiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[12].requiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[12].minRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[12].maxRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[12].minRequiredRings
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[12].maxRequiredRings
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[12].runTimes
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[12].isItRowRunTimes
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[12].isEndlessGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[12].isTimeTrialGame
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[12].isTwoCones
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[12].isSpecificConeMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[12].isAutoSetPlayTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[12].playTimer
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[12].ringsCount
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[13].challengeName
+    value: Place between 4 and 8 rings in 1 Run without using magnets
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[13].isTheExactRequirment
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[13].isAbleToUseMagnets
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[13].requiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[13].requiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[13].minRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[13].maxRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[13].minRequiredRings
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[13].maxRequiredRings
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[13].runTimes
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[13].isItRowRunTimes
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[13].isEndlessGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[13].isTimeTrialGame
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[13].isTwoCones
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[13].isSpecificConeMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[13].isAutoSetPlayTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[13].playTimer
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[13].ringsCount
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[14].challengeName
+    value: Place between 4 and 8 rings in 1 Run within 20s
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[14].isTheExactRequirment
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[14].isAbleToUseMagnets
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[14].requiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[14].requiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[14].minRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[14].maxRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[14].minRequiredRings
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[14].maxRequiredRings
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[14].runTimes
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[14].isItRowRunTimes
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[14].isEndlessGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[14].isTimeTrialGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[14].isTwoCones
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[14].isSpecificConeMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[14].isAutoSetPlayTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[14].playTimer
+    value: 20
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[14].ringsCount
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[15].challengeName
+    value: Place between 4 and 8 rings in 3 a row
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[15].isTheExactRequirment
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[15].isAbleToUseMagnets
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[15].requiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[15].requiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[15].minRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[15].maxRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[15].minRequiredRings
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[15].maxRequiredRings
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[15].runTimes
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[15].isItRowRunTimes
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[15].isEndlessGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[15].isTimeTrialGame
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[15].isTwoCones
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[15].isSpecificConeMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[15].isAutoSetPlayTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[15].playTimer
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[15].ringsCount
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[16].challengeName
+    value: Place between 4 and 8 rings in 3 a row without using magnets
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[16].isTheExactRequirment
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[16].isAbleToUseMagnets
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[16].requiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[16].requiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[16].minRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[16].maxRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[16].minRequiredRings
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[16].maxRequiredRings
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[16].runTimes
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[16].isItRowRunTimes
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[16].isEndlessGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[16].isTimeTrialGame
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[16].isTwoCones
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[16].isSpecificConeMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[16].isAutoSetPlayTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[16].playTimer
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[16].ringsCount
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[17].challengeName
+    value: Place between 4 and 8 rings in 3 a row within 20s
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[17].isTheExactRequirment
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[17].isAbleToUseMagnets
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[17].requiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[17].requiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[17].minRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[17].maxRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[17].minRequiredRings
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[17].maxRequiredRings
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[17].runTimes
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[17].isItRowRunTimes
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[17].isEndlessGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[17].isTimeTrialGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[17].isTwoCones
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[17].isSpecificConeMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[17].isAutoSetPlayTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[17].playTimer
+    value: 20
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[17].ringsCount
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[18].challengeName
+    value: Place between 4 and 8 rings in 3 run
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[18].isTheExactRequirment
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[18].isAbleToUseMagnets
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[18].requiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[18].requiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[18].minRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[18].maxRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[18].minRequiredRings
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[18].maxRequiredRings
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[18].runTimes
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[18].isItRowRunTimes
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[18].isEndlessGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[18].isTimeTrialGame
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[18].isTwoCones
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[18].isSpecificConeMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[18].isAutoSetPlayTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[18].playTimer
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[18].ringsCount
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[19].challengeName
+    value: Place between 4 and 8 rings in 3 run without using magnets
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[19].isTheExactRequirment
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[19].isAbleToUseMagnets
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[19].requiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[19].requiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[19].minRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[19].maxRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[19].minRequiredRings
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[19].maxRequiredRings
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[19].runTimes
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[19].isItRowRunTimes
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[19].isEndlessGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[19].isTimeTrialGame
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[19].isTwoCones
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[19].isSpecificConeMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[19].isAutoSetPlayTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[19].playTimer
+    value: 10
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[19].ringsCount
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[20].challengeName
+    value: Place between 4 and 8 rings in 3 run within 20s
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[20].isTheExactRequirment
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[20].isAbleToUseMagnets
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[20].requiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[20].requiredRings
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[20].minRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[20].maxRequiredScore
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[20].minRequiredRings
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[20].maxRequiredRings
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[20].runTimes
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[20].isItRowRunTimes
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[20].isEndlessGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[20].isTimeTrialGame
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[20].isTwoCones
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[20].isSpecificConeMode
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[20].isAutoSetPlayTimer
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[20].playTimer
+    value: 20
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: challengeLevels.Array.data[20].ringsCount
+    value: 6
+    objectReference: {fileID: 0}

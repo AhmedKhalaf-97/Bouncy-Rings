@@ -1,0 +1,107 @@
+
+-------------------------------------------------------------------------------------------------------
+
+Challenge Levels:
+score ## in 1 run
+Score ## in ## a row
+Score ## in ## run
+Score between ## and ## in 1 Run
+Score between ## and ## in ## a row
+Score between ## and ## in ## run
+
+Place ## Rings in 1 run
+Place ## Rings in ## a row
+Place ## Rings in ## run
+Place between ## and ## Rings in 1 Run
+Place between ## and ## Rings in ## a row
+Place between ## and ## Rings in ## run
+
+score ## exactlty " " " " " " " " " " " "
+" " " " " " " " " " " "   without using magnets
+" " " " " " " " " " " " within time range
+
+-------------------------------------------------------------------------------------------------------
+
+0 --> 13:
+6	
+90
+3
+
+13 --> 26:
+8
+120
+4
+
+26 --> 39:
+10
+150
+5
+
+39 --> 52:
+12
+180
+6
+
+52 --> 65:
+14
+210
+7
+
+65 --> 78:
+16
+240
+8
+
+78 --> 91:
+18
+270
+9
+
+91 --> 100:
+20
+300
+10
+
+-------------------------------------------------------------------------------------------------------
+
+play modes:
+place all rings in cones
+place all rings in cones in ## time
+place red rings in red cones and white rings in white cones
+place red rings in red cones and white rings in white cones in ## time
+
+place all rings in one cone
+place all rings in one cone in ## time
+place only red rings in one cone
+place only red rings in one cone in ## time
+
+-------------------------------------------------------------------------------------------------------
+
+Game Save Shortcuts:
+ 1)Player:
+   TI --> TouchIndex
+   AS --> AccelerometerSensitivity
+   QMI --> QualityModeIndex
+   MC --> MagnetCount
+   IAO --> IsAudioOn
+ 2)MainMenu:
+   HS --> HighScore
+   CS --> CumulativeScore
+   LN --> LevelNumber
+   RC --> RewardedCash
+   FTPH --> FirstTimePlayingHint
+   GR --> GameRated
+ 3)WallpapersMenu:
+   LSW --> Last selected Wallpaper
+   PW --> Purchased Wallpaper
+ 4)ChallengeLevels:
+   CI --> ChallengeIndex
+ 5)UnityAds:
+   NA --> NoAds
+ 6)DailyReward:
+   DTN --> DateTimeNow
+   DRP --> DailyRewardProgress
+-------------------------------------------------------------------------------------------------------
+
+Prices:
+wallpapers price = 15300 cash
